@@ -18,7 +18,7 @@ int main() {
     printf("%d\n", a); //dereference
 
     printf("%p\n", &a); // address of the dereference
-
+    
     printf("%d\n", b);
 
     // Howeever its good practice to put p in every pointer

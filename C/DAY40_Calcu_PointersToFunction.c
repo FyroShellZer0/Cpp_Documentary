@@ -4,6 +4,7 @@ int subtract(int x, int y);
 int multiply(int x, int y);
 int divide(int x, int y);
 int (*select_option())(int , int); // the function itself
+
 int main() {
     int (*operation) (int , int) = select_option();
     printf("answer: %d\n", operation(20, 5));

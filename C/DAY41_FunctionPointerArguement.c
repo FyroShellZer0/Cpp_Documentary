@@ -17,7 +17,7 @@ int main() {
 void isFreezing(bool(*freezeCheck)(int)) {    // freezeCheck is a pointer to a function that accepts int
                                               // as an arguement and return true or false                                                                                                                                                                          
     int temperature = 0;
-
+    
     printf("Enter temperature: ");
     scanf("%d", &temperature);
     if(freezeCheck(temperature))

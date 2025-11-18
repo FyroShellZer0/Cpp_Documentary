@@ -16,14 +16,17 @@ int main() {
     bool isOnline = true;
     printf("%s", (isOnline) ? "User is online\n" : "user offline\n");
 
-    
+    bool isRaining = false;
+    printf("%s", (isRaining) ? "Take an umbrella\n" : "Go outside freely\n");
+
     int number = 8;
     printf("%d is %s", number, (number % 2 == 0) ? "Even\n" : "Odd\n");
 
     int age = 16;
     printf("%s", (age > 18) ? "you are an adult!\n" : "You are a minor\n");
 
-
+    int temperature = 25;
+    printf("%s", (temperature > 28) ? "Its too hot!\n" : "Its  too cold\n");
     int hours = 11;
     int minutes = 30;
     char *meridiem = (hours < 12) ? "AM" : "PM";

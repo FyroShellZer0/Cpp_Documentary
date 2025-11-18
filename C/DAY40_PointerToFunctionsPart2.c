@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 double add(double x, double y);
-int main() {
+ int main() {       
     //pointer to functions that return value
     double (*add_pointer)(double, double) = &add;// pointer to a function that accepts double arguement
                                             // you can also assign the function memory address
@@ -13,4 +13,4 @@ int main() {
 }
 double add(double x, double y) {
     return x + y;
-}
+}   
