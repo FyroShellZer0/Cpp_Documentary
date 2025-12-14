@@ -2,8 +2,8 @@
 int main(void) {
     //! unsigned = can store only positive numbers
     //! if negative  
-    signed int a = -5;
-    unsigned int b = -5;
+    signed int a = -5; 
+    unsigned int b = -5; 
     unsigned int c = 2;
     printf("signed int a: %d\n", a); //? -5
     printf("bit: %u\n", a); //! 4294967291
