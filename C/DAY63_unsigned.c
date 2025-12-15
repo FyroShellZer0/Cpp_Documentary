@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void) {
     //! unsigned = can store only positive numbers
-    //! if negative  
-    signed int a = -5; 
+    //! if negative was stored in unsigned, printing %u would return the wrapped 
+    signed int a = -5;                            //!               value
     unsigned int b = -5; 
     unsigned int c = 2;
     printf("signed int a: %d\n", a); //? -5
