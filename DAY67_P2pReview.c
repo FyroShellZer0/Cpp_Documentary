@@ -13,4 +13,4 @@ int main(void) {
     printf("AD A: %p\n", &a);
     printf("AD B: %p\n", &b);
     return 0;
-} 
+} // test
