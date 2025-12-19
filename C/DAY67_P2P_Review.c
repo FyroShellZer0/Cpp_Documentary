@@ -12,5 +12,7 @@ int main(void) {
 
     printf("AD A: %p\n", &a);
     printf("AD B: %p\n", &b);
+    **q = *p + 2; //! from *p = &a, we modified the *p using p2p **q to pointer to &b so now we can
+    printf("B: %d\n", b); //!                                      dereference and do arithmetic                                         
     return 0;
 } 
