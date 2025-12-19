@@ -5,7 +5,7 @@ void increment(int a) {
     
 }
 int main(void){
-    //! when you pass by value, we can use it for:
+    //! when you pass by value ONLY, we can use it for:
     //! 1. COMPUTATION
     //! 2. MODIFY LOCAL COPY
     //! 3. RETURN A NEW VALUE
