@@ -5,7 +5,7 @@ int main(void) {
     int *p = &a;
     p = p+1; //! garbage! we added moved 4 bytes but it doesnt contain anything
     printf("garbage value of a: %d\n", *p);
-
+    
     int A[5] = {1, 2, 3, 4, 5};
     int *q = &A[1];
     printf("\nAddress of A[1]: %p, Value: %d\n", q, *q); //! d9c4

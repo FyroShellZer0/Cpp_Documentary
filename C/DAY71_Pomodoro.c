@@ -53,7 +53,7 @@ int main(void){
     }
 
 
-    int grind = 25;
+    int grind = 60;
     int rest = 5;
     while(1) {
         
