@@ -4,7 +4,7 @@
 #include <curl/curl.h>
 #include <cjson/cJSON.h>
 size_t write_callback(void *p, size_t size, size_t nmemb, void *data) {
-    strcat(data, p);
+    strcat(data, p); 
     return size * nmemb;
 }
 
